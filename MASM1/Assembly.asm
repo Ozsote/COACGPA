@@ -6,14 +6,12 @@
 	ExitProcess PROTO, dwExitCode:  DWORD
 
 	.data
-				str1 byte 100 dup (?); define your variables here	
+			; define your variables here	
 	.code
 
 	Assembly PROC
 				mWriteLn"ASCII Virtual-scan Virtual-key	Keyboard flags"
-				mreadstring str1
-				mwritestring str1
-				call Crlf
+				
 	
 	LookForKey:
 		mov eax,50

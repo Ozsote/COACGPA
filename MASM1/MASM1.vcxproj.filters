@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <MASM Include="Assembly.asm">
-      <Filter>Source Files</Filter>
-    </MASM>
-    <MASM Include="main.asm">
+    <MASM Include="Assem.asm">
       <Filter>Source Files</Filter>
     </MASM>
   </ItemGroup>
